@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
-import 'package:prak09/display_screen.dart';
+import 'package:guided/display_screen.dart';
 
 class MyCameraScreen extends StatefulWidget {
   const MyCameraScreen({super.key});
