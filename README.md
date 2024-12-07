@@ -18,13 +18,13 @@ Repository ini berisi materi praktikum untuk mata kuliah **Pemrograman Perangkat
      - List
      - Function
     
-4. **04_Antarmuka Pengguna**
+4. **04_Antarmuka_Pengguna**
    - Modul ini fokus pada pembuatan antarmuka pengguna (UI) menggunakan Flutter. Anda akan belajar tentang penggunaan berbagai widget untuk menampilkan data dan mengatur tata letak.
      - `GridView`: Menampilkan elemen dalam tata letak grid.
      - `ListView`: Menampilkan elemen dalam bentuk daftar.
      - `Stack`: Menyusun elemen UI secara bertumpuk.
     
-5. **05_Antarmuka Pengguna Lanjutan**
+5. **05_Antarmuka_Pengguna_Lanjutan**
 
 ## Cara Menggunakan
 
