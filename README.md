@@ -1,88 +1,129 @@
-# Pemrograman Perangkat Bergerak
+# PPB_Irfan_Muria_2211104075_SE0602
 
-Repository ini berisi materi praktikum untuk mata kuliah **Pemrograman Perangkat Bergerak** yang diampu oleh **Yudha Islami Sulistya, S.Kom., M.Cs**. Praktikum ini dilakukan oleh **Irfan Muria (2211104075)** dari kelas **SE06-02**.
+Repositori ini berisi materi dan tugas praktikum untuk mata kuliah **Pemrograman Perangkat Bergerak** yang diampu oleh **Yudha Islami Sulistya, S.Kom., M.Cs.**. Praktikum ini dikerjakan oleh:
 
-## Daftar Modul
+**Nama:** Irfan Muria  
+**NIM:** 2211104075  
+**Kelas:** SE06-02
 
-1. **01_Running_Modul**
-   - Modul ini berisi pengenalan dasar mengenai cara menjalankan modul dan instalasi.
+---
 
-2. **02_Pengenalan_Flutter**
-   - Membahas dasar-dasar pengenalan framework **Flutter**, termasuk instalasi, struktur proyek, dan menjalankan aplikasi pertama.
+## 📑 Daftar Modul
 
-3. **03_Pengenalan_Dart**
-   - Fokus pada bahasa pemrograman **Dart** yang digunakan dalam Flutter. Meliputi:
-     - Variabel
-     - Statement Control
-     - Looping
-     - List
-     - Function
-    
-4. **04_Antarmuka_Pengguna**
-   - Modul ini fokus pada pembuatan antarmuka pengguna (UI) menggunakan Flutter. Anda akan belajar tentang penggunaan berbagai widget untuk menampilkan data dan mengatur tata letak.
-     - `GridView`: Menampilkan elemen dalam tata letak grid.
-     - `ListView`: Menampilkan elemen dalam bentuk daftar.
-     - `Stack`: Menyusun elemen UI secara bertumpuk.
-    
-5. **05_Antarmuka_Pengguna_Lanjutan**
+- **01_Running_Modul**
+   - Pengenalan dasar mengenai cara menjalankan modul dan instalasi.
 
-## Cara Menggunakan
+- **02_Pengenalan_Flutter**
+   - Membahas dasar-dasar pengenalan framework Flutter, termasuk instalasi dan struktur proyek.
 
-1. **Clone repository** ini ke lokal Anda dengan perintah:
+- **03_Pengenalan_Dart**
+   - Memperkenalkan bahasa pemrograman Dart yang digunakan dalam pengembangan Flutter.
+
+- **04_Antarmuka_Pengguna**
+   - Pembahasan mengenai pembuatan antarmuka pengguna dasar dalam Flutter.
+
+- **05_Antarmuka_Pengguna_Lanjutan**
+   - Melanjutkan pembahasan antarmuka pengguna dengan fitur-fitur lanjutan.
+
+- **06_Interaksi_Pengguna**
+   - Fokus pada interaksi pengguna dengan aplikasi, seperti input dan gesture.
+
+- **07_Navigasi & Notifikasi**
+   - Membahas navigasi antar halaman dan implementasi notifikasi dalam aplikasi.
+
+- **09_API_Perangkat_Keras**
+   - Integrasi dengan API perangkat keras seperti kamera atau sensor.
+
+- **10_Data_Storage_Bagian_1**
+   - Penyimpanan data lokal pada perangkat (bagian 1).
+
+- **11_Data_Storage_Bagian_2**
+    - Lanjutan dari modul sebelumnya mengenai penyimpanan data (bagian 2).
+
+- **12_Maps & Places**
+    - Implementasi peta dan lokasi dalam aplikasi.
+
+- **13_Networking**
+    - Koneksi dan komunikasi dengan layanan jaringan.
+
+- **14_Data Storage**
+    - Modul tambahan mengenai penyimpanan data.
+
+---
+
+## 📂 Struktur Folder
+
+- **/01_Running_Modul/**
+  - File terkait dengan pengenalan dasar modul.
+- **/02_Pengenalan_Flutter/**
+  - Contoh kode dan panduan instalasi Flutter.
+- **/03_Pengenalan_Dart/**
+  - Contoh sintaks dasar dan program sederhana menggunakan Dart.
+- **/04_Antarmuka_Pengguna/**
+  - Implementasi antarmuka pengguna dasar.
+- **/05_Antarmuka_Pengguna_Lanjutan/**
+  - Contoh antarmuka pengguna lanjutan, termasuk animasi.
+- **/06_Interaksi_Pengguna/**
+  - Proyek interaksi pengguna, seperti formulir dan tombol aksi.
+- **/07_Navigasi_&_Notifikasi/**
+  - Contoh navigasi antar halaman dan penerapan notifikasi.
+- **/09_API_Perangkat_Keras/**
+  - Contoh aplikasi yang menggunakan kamera atau sensor.
+- **/10_&_11_Data_Storage/**
+  - Modul terkait penyimpanan data lokal.
+- **/12_Maps_&_Places/**
+  - Implementasi fitur peta menggunakan Google Maps.
+- **/13_Networking/**
+  - Contoh aplikasi yang berinteraksi dengan API jaringan.
+- **/14_Data_Storage/**
+  - Studi lanjutan mengenai penyimpanan data.
+
+---
+
+## 🚀 Cara Menggunakan Repositori
+
+1. **Clone repositori ini:**
    ```bash
    git clone https://github.com/irpanzy/PPB_Irfan_Muria_2211104075_SE0602.git
    ```
 
-2. Buka folder sesuai modul yang ingin dipelajari.
+2. **Masuk ke direktori proyek:**
+   ```bash
+   cd PPB_Irfan_Muria_2211104075_SE0602
+   ```
 
-3. Untuk menjalankan setiap modul:
-   - Masuk ke folder yang sesuai (contoh: `03_Pengenalan_Dart` atau `04_Antarmuka_Pengguna`).
-   - Buka file `main.dart` atau file Dart lainnya menggunakan editor seperti **VS Code** atau **Android Studio**.
-   - Jalankan perintah berikut di terminal untuk menjalankan proyek Flutter:
+3. **Jalankan proyek:**
+   - Pastikan Flutter sudah terinstal di perangkat Anda.
+   - Buka direktori modul yang ingin dipelajari dan jalankan perintah berikut:
      ```bash
+     flutter pub get
      flutter run
      ```
 
-4. Ikuti instruksi yang disediakan dalam file `README.md` dan `LP.md` di masing-masing modul.
-
-## Teknologi yang Digunakan
-
-- **Dart**: Bahasa pemrograman utama yang digunakan untuk membangun aplikasi mobile dalam Flutter.
-- **Flutter**: Framework UI yang memungkinkan pengembangan aplikasi Android dan iOS menggunakan satu basis kode.
-
-## Struktur Repository
-
-- `01_Running_Modul/` - Folder untuk Modul 1
-  - `LP_01.md` - Lembar praktikum untuk modul 1.
-- `02_Pengenalan_Flutter/` - Folder untuk Modul 2
-  - `LP_02.md` - Lembar praktikum untuk modul 2.
-- `03_Pengenalan_Dart/` - Folder untuk Modul 3
-  - `branching.dart` - Contoh implementasi percabangan.
-  - `function.dart` - Contoh penggunaan fungsi dalam Dart.
-  - `looping.dart` - Contoh perulangan (loop).
-  - `LP_03.md` - Lembar praktikum untuk modul 3.
-- `04_Antarmuka_Pengguna/` - Folder untuk Modul 4
-  - `gridView.dart` - Implementasi GridView untuk tata letak berbasis grid.
-  - `listView.dart` - Implementasi ListView untuk menampilkan data dalam bentuk daftar.
-  - `stack.dart` - Implementasi Stack untuk tumpukan widget.
-  - `main.dart` - File utama untuk menjalankan aplikasi di modul ini.
-  - `LP_04.md` - Lembar praktikum untuk modul 4.
-- `README.md` - File deskripsi dari repository ini.
-
-## Kontribusi
-
-Jika Anda tertarik untuk berkontribusi pada project ini, berikut adalah langkah-langkahnya:
-1. Fork repository ini.
-2. Buat branch baru dengan perubahan yang diinginkan.
-3. Lakukan pull request dan deskripsikan perubahan yang Anda buat.
-
-## Sosial Media
-
-- GitHub [@irpanzy](https://github.com/irpanzy)
-- Twitter [@irpannzy](https://x.com/irpannzy)
-- Instagram [@irfanmuriaa](https://www.instagram.com/irfanmuriaa/)
+4. **Pelajari setiap modul sesuai urutan.**
 
 ---
 
-**Telkom University Purwokerto**  
-**2024**
+## 🛠️ Teknologi yang Digunakan
+
+- **Flutter**: Framework untuk pengembangan aplikasi perangkat bergerak.
+- **Dart**: Bahasa pemrograman yang digunakan oleh Flutter.
+- **Google Maps API**: Untuk implementasi peta dan lokasi.
+- **SQLite**: Untuk penyimpanan data lokal.
+
+---
+
+## 📞 Kontak
+
+Jika terdapat pertanyaan atau saran, silakan hubungi melalui:
+- **Email:** [irfanmuria04@gmail.com](mailto:irfanmuria04@gmail.com)
+- **GitHub Issues:** [Buat Issue](https://github.com/irpanzy/PPB_Irfan_Muria_2211104075_SE0602/issues)
+
+---
+
+## 📜 Lisensi
+Repositori ini dibuat untuk keperluan pendidikan dan praktikum. Hak cipta materi ada pada pemilik asli sesuai dengan panduan akademik.
+
+---
+
+Terima kasih telah menggunakan repositori ini. Semoga bermanfaat! 😊
