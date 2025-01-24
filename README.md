@@ -117,6 +117,7 @@ Repositori ini berisi materi dan tugas praktikum untuk mata kuliah **Pemrograman
 
 Jika terdapat pertanyaan atau saran, silakan hubungi melalui:
 - **Email:** [irfanmuria04@gmail.com](mailto:irfanmuria04@gmail.com)
+- **Instagram:** [@irfanmuriaa](https://www.instagram.com/irfanmuriaa)
 - **GitHub Issues:** [Buat Issue](https://github.com/irpanzy/PPB_Irfan_Muria_2211104075_SE0602/issues)
 
 ---
